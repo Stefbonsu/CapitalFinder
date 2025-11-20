@@ -29,7 +29,7 @@ public class TestCapital {
 
     private static void testUnsupported() {
         String expected = "Unsupported country";
-        String actual = CapitalFinder.getCapital("Argentina");
+        String actual = CapitalFinder.getCapital("Laos");
 
         if (expected.equals(actual)) {
             System.out.println("testUnknown: PASS");
