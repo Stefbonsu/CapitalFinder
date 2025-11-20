@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// This programs show capital cities of certain countries
+
 public class Main {
     public static void main(String[] args) {
 
