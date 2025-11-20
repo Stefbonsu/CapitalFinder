@@ -13,7 +13,7 @@ public class CapitalFinder {
         capitals.put("Denmark", "Copenhagen");
     }
 
-
+    // Returns the capital town or city for the country selected
     public static String getCapital(String country) {
         return capitals.getOrDefault(country, "Unsupported country");
     }
