@@ -19,6 +19,7 @@ public class CapitalFinder {
     }
 
 
+    //Returns a list of all supported country names
     public static String listCountries() {
         return String.join(", ", capitals.keySet());
     }
